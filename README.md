@@ -1,2 +1,2 @@
-# conway inspired RPS
- 
+# a conway inspired RPS game
+ by muhammad sidat
