@@ -1,0 +1,45 @@
+ToDo.
+    create display
+    create background
+    make Sprites
+        rock
+        paper
+        scissors
+        team 1 and team 2 icon
+
+
+
+psudocode
+mainLoop
+if all alive is one team: 
+    endgame
+    team x wins popup
+if all alive are (rock or paper or scissors):
+    tally remaining objects
+    team with most object wins
+
+
+
+object
+    state(rock or paper or scissors)
+    team(player1 or player2)
+    currentPosition(x,y)
+    velocity(x,y)
+    
+func collision(obj1,obj2):
+    a = obj1.getState
+    b = obj2.getState
+    checkWinner(a,b)
+
+    if team not same:
+        winner = checkWinner(obj1.state,obj2.state)
+        if winner = draw:
+            
+
+func checkWinner(state1,state2)
+if state1 == state2:
+    return draw
+elif state1 != state2:
+    paper beat rock
+    rock beat scissors
+    scissors beat paper
